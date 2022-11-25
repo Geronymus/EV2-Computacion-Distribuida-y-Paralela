@@ -31,7 +31,7 @@ func main() {
 	h := b - a
 	var a2 float64
 	nTrapecios := 10000
-	wg.Add(1)
+	wg.Add(10000)
 	var teo []Trapecio
 
 	aTOTAL := 0.0
